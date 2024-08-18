@@ -1,0 +1,123 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+
+}
+
+.logo {
+    margin-left: 165px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    margin-right: 296px;
+}
+
+.links a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 674px;
+    cursor: pointer;
+    color: #4C5866;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    width: 78px;
+}
+
+.header-line {
+    border: 1px solid #DDDDDD;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-left {
+    width: 445px;
+    height: 361px;
+    margin-left: 165px;
+    margin-top: 130px;
+    margin-right: 125px;
+}
+
+.hero-button button {
+    margin-left: 0px;
+    width: 255px;
+    height: 70px;
+    border: 1px solid #7875FE;
+    padding: 20px 50px;
+    color: #7875FE;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: white;
+
+}
+
+.hero h2 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #4C5866;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #85859B;
+}
+
+.hero-right {
+    width: 540px;
+    margin-top: 60px;
+}
+.frame216 {
+    width: 1110px;
+    margin: 90px 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frame-card {
+    display: flex;
+    width: 350px;
+}
+
+.frame-card-left img{
+    width: 160px;
+}
+
+.frame-card-right {
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.frame-card-right h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #666666;
+}
+
+.frame-card-right p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #85859B;
+}
+
+.frame216-border {
+    border: 1px solid #C0C0C0;
+    margin-bottom: 18px;
+}
